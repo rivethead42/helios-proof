@@ -20,6 +20,10 @@ steps:
   displayName: 'Install Yarn'
 
 - script: |
+    yarn install
+  displayName: 'Install packages'
+
+- script: |
     yarn test
   displayName: 'Test code'
 
