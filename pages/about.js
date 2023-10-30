@@ -6,7 +6,7 @@ export default function About() {
         <main className={styles.main}>
             <div className={styles.description}>
                 <p>
-                Welcome to Alaph Corp
+                About  Alaph Corp
                 </p>
                 <div>
                 <a
