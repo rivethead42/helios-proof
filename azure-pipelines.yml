@@ -31,7 +31,7 @@ steps:
   displayName: 'Publish Test Restuls junit.xml'
   inputs:
     testResultsFormat: 'JUnit'
-    testResultsFile: junit.xml
+    testResultsFiles: junit.xml
 
 - script: |
     rm -rf node_modules
