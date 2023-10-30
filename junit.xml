@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="5" failures="0" errors="0" time="2.354">
+  <testsuite name="__tests__/About.test.jsx" errors="0" failures="0" skipped="0" timestamp="2023-10-30T19:18:58" time="1.134" tests="3">
+    <testcase classname="About should containe the text &quot;About&quot;" name="About should containe the text &quot;About&quot;" time="0.056">
+    </testcase>
+    <testcase classname="About should containe the text &quot;Back to the homse page&quot;" name="About should containe the text &quot;Back to the homse page&quot;" time="0.011">
+    </testcase>
+    <testcase classname="About should containe the text &quot;Lorem ipsum&quot;" name="About should containe the text &quot;Lorem ipsum&quot;" time="0.009">
+    </testcase>
+  </testsuite>
+  <testsuite name="__tests__/Home.test.jsx" errors="0" failures="0" skipped="0" timestamp="2023-10-30T19:18:59" time="0.589" tests="2">
+    <testcase classname="Home should have About text" name="Home should have About text" time="0.045">
+    </testcase>
+    <testcase classname="Home should containe the text &quot;Lorem ipsum&quot;" name="Home should containe the text &quot;Lorem ipsum&quot;" time="0.011">
+    </testcase>
+  </testsuite>
+</testsuites>
