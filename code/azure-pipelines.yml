@@ -28,14 +28,14 @@ steps:
   displayName: 'Test code'
 
 - task: PublishTestResults@2
-  displayName: 'Publish Test Restuls junit.xml'
+  displayName: 'Publish Test Results junit.xml'
   inputs:
     testResultsFormat: 'JUnit'
-    testResultsFiles: junit.xml
+    testResultsFile: junit.xml
 
 - script: |
     rm -rf node_modules
-  displayName: 'Revmove packages'
+  displayName: 'Remove packages'
 
 - script: |
     yarn install --production --frozen-lockfile
