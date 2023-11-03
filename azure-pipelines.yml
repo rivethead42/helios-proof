@@ -41,14 +41,14 @@ stages:
       - script: |
           cd code/ && yarn install
         displayName: 'Install packages'
-      - script:|
+      - script: |
           cd code/ && yarn test
         displayName: 'Test code'
       - task: PublishTestResults@2
         displayName: 'Publish Test Restuls junit.xml'
         inputs:
           testResultsFormat: 'JUnit'
-          testResultsFile: junit.xml
+          testResultsFiles: junit.xml
       - script: |
           cd code/ && rm -rf node_modules
         displayName: 'Removes packages'
