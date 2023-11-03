@@ -1,17 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="5" failures="0" errors="0" time="2.354">
-  <testsuite name="__tests__/About.test.jsx" errors="0" failures="0" skipped="0" timestamp="2023-10-30T19:18:58" time="1.134" tests="3">
-    <testcase classname="About should containe the text &quot;About&quot;" name="About should containe the text &quot;About&quot;" time="0.056">
+<testsuites name="jest tests" tests="6" failures="1" errors="0" time="2.481">
+  <testsuite name="__tests__/Home.test.jsx" errors="0" failures="1" skipped="0" timestamp="2023-11-03T18:10:44" time="1.174" tests="3">
+    <testcase classname="Home should have About text" name="Home should have About text" time="0.071">
     </testcase>
-    <testcase classname="About should containe the text &quot;Back to the homse page&quot;" name="About should containe the text &quot;Back to the homse page&quot;" time="0.011">
+    <testcase classname="Home should containe the text &quot;Lorem ipsum&quot;" name="Home should containe the text &quot;Lorem ipsum&quot;" time="0.013">
     </testcase>
-    <testcase classname="About should containe the text &quot;Lorem ipsum&quot;" name="About should containe the text &quot;Lorem ipsum&quot;" time="0.009">
+    <testcase classname="Home should containe the text &quot;Lorem ipsum&quot;" name="Home should containe the text &quot;Lorem ipsum&quot;" time="0.019">
+      <failure>TestingLibraryElementError: Unable to find an element with the text: /Hello Alaph Corp/i. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+Ignored nodes: comments, script, style
+&lt;body&gt;
+  &lt;div&gt;
+    &lt;main
+      class=&quot;main&quot;
+    &gt;
+      &lt;div
+        class=&quot;description&quot;
+      &gt;
+        &lt;p&gt;
+          Welcome to Alaph Corp
+        &lt;/p&gt;
+        &lt;div&gt;
+          &lt;a
+            href=&quot;#&quot;
+            rel=&quot;noopener noreferrer&quot;
+            target=&quot;_blank&quot;
+          &gt;
+            Power By
+             
+            Helios
+          &lt;/a&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div
+        class=&quot;center&quot;
+      &gt;
+        &lt;div
+          style=&quot;max-width: 1000px;&quot;
+        &gt;
+          &lt;p&gt;
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id interdum velit laoreet id donec ultrices tincidunt arcu. Sed cras ornare arcu dui vivamus arcu felis. Aenean pharetra magna ac placerat. Vestibulum morbi blandit cursus risus at ultrices. Non enim praesent elementum facilisis leo vel fringilla. Venenatis tellus in metus vulputate eu scelerisque felis imperdiet. Amet est placerat in egestas erat imperdiet sed euismod. Quis auctor elit sed vulputate mi sit amet. Tempus quam pellentesque nec nam. Dolor morbi non arcu risus. Porttitor rhoncus dolor purus non enim praesent elementum facilisis. Dignissim suspendisse in est ante in. Malesuada nunc vel risus commodo viverra maecenas accumsan. Luctus venenatis lectus magna fringilla. Egestas integer eget aliquet nibh praesent tristique magna sit amet. Integer vitae justo eget magna fermentum iaculis eu non.
+          &lt;/p&gt;
+          &lt;br /&gt;
+          &lt;p&gt;
+            Adipiscing elit duis tristique sollicitudin nibh sit amet commodo. Posuere sollicitudin aliquam ultrices sagittis orci a scelerisque purus semper. Urna cursus eget nunc scelerisque viverra mauris in aliquam sem. Mi bibendum neque egestas congue quisque egestas diam in arcu. Lorem sed risus ultricies tristique nulla aliquet. Turpis nunc eget lorem dolor sed viverra ipsum nunc aliquet. Donec pretium vulputate sapien nec. Nec dui nunc mattis enim ut tellus elementum sagittis. Neque gravida in fermentum et sollicitudin. Commodo odio aenean sed adipiscing diam donec adipiscing tristique. Pharetra convallis posuere morbi leo. Eu mi bibendum neque egestas. Neque sodales ut etiam sit amet nisl purus in mollis. Magna etiam tempor orci eu lobortis elementum nibh. Non tellus orci ac auctor augue mauris augue neque. Odio ut enim blandit volutpat maecenas. Neque volutpat ac tincidunt vitae semper quis lectus.
+          &lt;/p&gt;
+          &lt;br /&gt;
+          &lt;p&gt;
+            Auctor eu augue ut lectus arcu bibendum at varius. Vel eros donec ac odio tempor orci. Viverra accumsan in nisl nisi scelerisque eu ultrices vitae auctor. Nisl pretium fusce id velit ut tortor. Tempor commodo ullamcorper a lacus. Condimentum mattis pellentesque id nibh. Eleifend mi in nulla posuere sollicitudin. Rhoncus dolor purus non enim praesent elementum facilisis leo. Facilisi nullam vehicula ipsum a arcu cursus. Ornare suspendisse sed nisi lacus sed viverra. Blandit cursus risus at ultrices mi tempus imperdiet nulla. Sit amet consectetur adipiscing elit duis tristique. Placerat vestibulum lectus mauris ultrices eros in cursus turpis massa.
+          &lt;/p&gt;
+          &lt;br /&gt;
+          &lt;p&gt;
+            Ultrices in iaculis nunc sed augue lacus viverra vitae congue. Turpis massa tincidunt dui ut ornare lectus sit amet. Tincidunt augue interdum velit euismod in pellentesque massa. Sed risus pretium quam vulputate dignissim. Libero volutpat sed cras ornare arcu dui vivamus arcu felis. Montes nascetur ridiculus mus mauris vitae. Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi tristique. Rhoncus est pellentesque elit ullamcorper dignissim. Et leo duis ut diam quam nulla porttitor. Faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam.
+          &lt;/p&gt;
+          &lt;br /&gt;
+          &lt;p&gt;
+            Ac placerat vestibulum lectus mauris ultrices eros in cursus. Commodo elit at imperdiet dui accumsan sit amet nulla facilisi. Duis ut diam quam nulla porttitor massa id neque aliquam. Bibendum enim facilisis gravida neque convallis a cras semper. Felis eget velit aliquet sagittis. Pretium lectus quam id leo in vitae turpis massa sed. Ac tincidunt vitae semper quis. Viverra nibh cras pulvinar mattis nunc sed blandit libero volutpat. Nulla pharetra diam sit amet nisl suscipit adipiscing. Hendrerit dolor magna eget est lorem ipsum dolor.
+          &lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div
+        class=&quot;grid&quot;
+      &gt;
+        &lt;a
+          class=&quot;card&quot;
+          href=&quot;/about&quot;
+          rel=&quot;noopener noreferrer&quot;
+        &gt;
+          &lt;h2&gt;
+            About
+          &lt;/h2&gt;
+          &lt;p&gt;
+            About Alpha Corp.
+          &lt;/p&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/main&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+    at Object.getElementError (/home/cloud_user/helios-proof/code/node_modules/@testing-library/dom/dist/config.js:37:19)
+    at /home/cloud_user/helios-proof/code/node_modules/@testing-library/dom/dist/query-helpers.js:76:38
+    at /home/cloud_user/helios-proof/code/node_modules/@testing-library/dom/dist/query-helpers.js:52:17
+    at /home/cloud_user/helios-proof/code/node_modules/@testing-library/dom/dist/query-helpers.js:95:19
+    at Object.getByText (/home/cloud_user/helios-proof/code/__tests__/Home.test.jsx:24:31)
+    at Promise.then.completed (/home/cloud_user/helios-proof/code/node_modules/jest-circus/build/utils.js:298:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/home/cloud_user/helios-proof/code/node_modules/jest-circus/build/utils.js:231:10)
+    at _callCircusTest (/home/cloud_user/helios-proof/code/node_modules/jest-circus/build/run.js:316:40)
+    at _runTest (/home/cloud_user/helios-proof/code/node_modules/jest-circus/build/run.js:252:3)
+    at _runTestsForDescribeBlock (/home/cloud_user/helios-proof/code/node_modules/jest-circus/build/run.js:126:9)
+    at _runTestsForDescribeBlock (/home/cloud_user/helios-proof/code/node_modules/jest-circus/build/run.js:121:9)
+    at run (/home/cloud_user/helios-proof/code/node_modules/jest-circus/build/run.js:71:3)
+    at runAndTransformResultsToJestFormat (/home/cloud_user/helios-proof/code/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/home/cloud_user/helios-proof/code/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/home/cloud_user/helios-proof/code/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/home/cloud_user/helios-proof/code/node_modules/jest-runner/build/runTest.js:444:34)</failure>
     </testcase>
   </testsuite>
-  <testsuite name="__tests__/Home.test.jsx" errors="0" failures="0" skipped="0" timestamp="2023-10-30T19:18:59" time="0.589" tests="2">
-    <testcase classname="Home should have About text" name="Home should have About text" time="0.045">
+  <testsuite name="__tests__/About.test.jsx" errors="0" failures="0" skipped="0" timestamp="2023-11-03T18:10:45" time="0.628" tests="3">
+    <testcase classname="About should containe the text &quot;About&quot;" name="About should containe the text &quot;About&quot;" time="0.048">
     </testcase>
-    <testcase classname="Home should containe the text &quot;Lorem ipsum&quot;" name="Home should containe the text &quot;Lorem ipsum&quot;" time="0.011">
+    <testcase classname="About should containe the text &quot;Back to the homse page&quot;" name="About should containe the text &quot;Back to the homse page&quot;" time="0.012">
+    </testcase>
+    <testcase classname="About should containe the text &quot;Lorem ipsum&quot;" name="About should containe the text &quot;Lorem ipsum&quot;" time="0.008">
     </testcase>
   </testsuite>
 </testsuites>

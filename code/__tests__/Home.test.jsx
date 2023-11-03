@@ -17,4 +17,12 @@ describe('Home', () => {
 
         expect(getElm).toBeInTheDocument();
     });
+
+    it('should containe the text "Lorem ipsum"', () => {
+        render(<Home />);
+
+        const getElm = screen.getByText(/Hello Alaph Corp/i);
+
+        expect(getElm).toBeInTheDocument();
+    });
 });
